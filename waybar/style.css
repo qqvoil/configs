@@ -1,0 +1,73 @@
+/* basics.css - Базовый рабочий каркас */
+* {
+    font-size: 15px;
+    font-family: "CodeNewRoman Nerd Font Propo", monospace;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+/* === БЛОКИ МОДУЛЕЙ === */
+/* Левый блок */
+#waybar > box:nth-child(1) {
+    background: rgba(22, 19, 13, 0.6);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px 0 10px 10px;
+}
+
+/* Центральный блок */
+#waybar > box:nth-child(2) {
+    background: rgba(22, 19, 13, 0.6);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px 0;
+}
+
+/* Правый блок */
+#waybar > box:nth-child(3) {
+    background: rgba(22, 19, 13, 0.6);
+    border-radius: 10px;
+    padding: 7px;
+    margin: 10px 10px 10px 0;
+}
+
+/* === ОТДЕЛЬНЫЕ МОДУЛИ === */
+/* User */
+#user {
+    /* Добавь стили */
+}
+
+/* Workspaces */
+#workspaces button {
+    /* Добавь стили */
+}
+
+/* Clock */
+#clock {
+    /* Добавь стили */
+}
+
+/* Language */
+#language {
+    /* Добавь стили */
+}
+
+/* Network */
+#network {
+    /* Добавь стили */
+}
+
+/* Tray */
+#tray {
+    /* Добавь стили */
+}
+
+/* Tooltip */
+tooltip {
+    background: #16130d;
+    color: #EFE4D8;
+    border-radius: 8px;
+    padding: 8px;
+}
